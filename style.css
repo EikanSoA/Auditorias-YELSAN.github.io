@@ -1,0 +1,64 @@
+body{
+    margin:0 auto;
+    padding: 0px;
+    font-family: sans-serif;
+    background-color: black;
+    background: url(backgroundaudi.jpg);
+    background-size: cover;
+}
+.box{
+    position: absolute;
+    width:300px;
+    padding:30px;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    background: #3bd6db93;
+    text-align:center;
+}
+
+.box h1{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.box input[type="text"],.box input[type="password"]
+{
+    border:0;
+    background: none;
+    display: black;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #1A5276;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+
+.box input[type="text"]:focus,.box input[type="password"]:focus{
+    width: 270px;
+    border-color: #FF5733;
+}
+
+.box input[type="submit"]{
+    border:0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #FF5733;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+
+.box input[type="submit"]:hover{
+    background: #FF5733;
+}

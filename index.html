@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="inicioSesion.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Auditorías YELSAN</title>
+</head>
+<body>
+    <form class="box" action=formularios.html method="GET" id="formIS" >
+        <h1>AUDITORÍAS YELSAN</h1>
+        <h2>Inicia Sesión</h2>
+        <div class="form">
+            <input type="text" name="" placeholder="Ingresa tu usuario" id="username">
+            <input type="password" name="" placeholder="Ingresa contraseña" id="password">
+            <input type="submit" name="" value="login" id="password" onclick="iniciarSesion()">
+    </form>
+</body>
+</html>
